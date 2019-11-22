@@ -1,0 +1,215 @@
+/***** BASE STYLES *****/
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 70px;
+    background-size: cover;
+}
+header h1 { 
+    padding: 10px 0 20px 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #009999;
+    text-transform: uppercase;
+}
+header h1 a:link, a:visited {
+    text-decoration: none;
+    color: #009999;
+}
+nav {
+    float: right; 
+    padding: 10px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 60px; 
+}
+nav a:link, a:visited {
+    text-decoration: none;
+    color: #828282;
+}
+
+/***** HERO AREA *****/
+#hero-area {
+    height: 600px;
+    background: url(../img/background-wood.jpg);
+    background-size: cover;
+}
+#hero-area .full-width {
+    padding: 50px 0;
+}
+#hero-area img#headshot {
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero-area h2 {
+    width: auto;
+    clear: both;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 90px;
+    line-height: 110px;
+    color: #333333;
+}
+#hero-area h2 span {
+    color: #ffffff;
+}
+
+/***** WORK *****/
+#work {
+    text-align: center;
+}
+#work .full-width {
+    padding: 100px 0;
+} 
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+#work p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 40px;
+}
+#work #project-link {
+    clear: both;
+    text-align: center;
+    font-size: 24px;
+    padding: 60px;
+}
+
+/***** ABOUT *****/
+#about {
+    background-color: #c9e8e0;
+}
+
+#about .full-width {
+    padding: 100px 0;
+}
+#about h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p {
+    font-size: 21px;
+    color: #333333;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+/***** CONTACT *****/
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 100px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact h3, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    line-height: 34px;
+}
+#contact h3 {
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #009999;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 54px;
+}
+
+/***** PORTFOLIO *****/
+#projects {
+    background-color: #ebebeb;
+    overflow: auto; 
+    clear: both;
+    padding: 10px 0 0 50px;
+}
+#projects h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    color: #333333;
+}
+#projects img.project-photos {
+    margin: 20px 0;
+    border: 2px solid #009999;
+}
+article {
+    width: 450px;
+    height: 319px;
+    margin: 20px 0;
+}
+article h3 {
+    font-size: 26px;
+}
+article #jubilee {
+    padding: 30px 0 0 0;
+}
+article p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+}
+
